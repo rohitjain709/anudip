@@ -1,0 +1,89 @@
+1. Declare a div() function with two parameters. Then call the function and pass two numbers and display their division. 
+
+def div(a, b):
+    return a / b
+
+
+num1 = 10
+num2 = 2
+result = div(num1, num2)
+
+print(f"The division of {num1} by {num2} is {result:.2f}")
+
+
+Output:  The division of 10 by 2 is 5.00
+
+
+2. Declare a square() function with one parameter.Then call the function and pass one number and display the square of that number .
+
+def square(number):
+    "Returns the square of the input number."
+    return number ** 2
+
+
+input_number = 5
+result = square(input_number)
+print(f"The square of {input_number} is {result}.")
+
+
+
+Output:  The square of 5 is 25.
+
+
+
+3. Using max() and min() functions display the maximum and minimum of 5 random numbers. 
+
+num = [12, 5, 30, 8, 2, 17, 55, 27]
+
+max_num = max(num)
+print("Maximum number in the list is: ", max_num)
+min_num = min(num)
+print("Minimum number in the list is: ", min_num)
+
+
+Output:  Maximum number in the list is:  55
+         Minimum number in the list is:  2
+
+
+
+4. Accept a name from the user and display that in lower case using lower() function.
+
+name = input("Enter your name: ")
+lower_case_name = name.lower()
+print("Your name in lower case:", lower_case_name)
+
+
+Output:  Your name in lower case: harshita
+
+
+
+5.  Function without Parameters.
+
+A function without parameters is a function that doesn’t take any input values.
+
+   def function_name():
+
+
+6.  Function with Parameter.
+
+A function with parameters is a block of code that can accept input value.
+
+  def function_name(a,b,....):
+
+
+7. Function with Default Parameter.
+
+These default values are used when the function is called without providing corresponding arguments.
+
+  def function_name(parameter1=default_value1, parameter2=default_value2, ...): or def greet(name="friend"):
+                                                                                   print("Hello,", name)
+
+8. Function with Return Keyword.
+
+def function_name(parameters):
+  # Function body
+  return value
+
+
+ 
+ 

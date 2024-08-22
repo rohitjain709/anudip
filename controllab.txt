@@ -1,0 +1,65 @@
+# Task 1: Write a Python program that prints "Even" if the number is even and "Odd" if it's odd.
+
+# Created a variable and taking input from user
+number = int(input("Enter a number: "))
+
+# using if statement to print "Even" if the number is even and "Odd" if it's odd
+if number%2==0:
+    print("Even")
+else:
+    print("Odd")
+
+
+
+
+
+# Task 2: Write a Python program that determines if a given year is a leap year or not.
+# Created a variable and taking input from user
+year = int(input("Enter a year: "))
+
+# using if statement to print given year is leap or not.
+if year%4==0:
+    print("Given year is a leap year.")
+else:
+    print("Given year is not a leap year")
+
+
+
+
+
+
+# Task 3: Write a Python program that determines the largest of three numbers.
+
+# taking input from user
+print("Enter three numbers: ")
+x = int(input("Enter num 1: "))
+y = int(input("Enter num 2: "))
+z = int(input("Enter num 3: "))
+
+# using if-else statement to determine & print largest of three numbers.
+if x>y & x>z:
+    print("Largest of three numbers is", x)
+elif y>x & y>z:
+    print("Largest of three numbers is", y)
+else:
+    print("Largest of three numbers is", z)
+
+
+
+
+
+
+
+# Task 4: Create a Python program that checks if a user-given number is positive, negative, or zero.
+# taking input from user
+number = float(input("Enter a positive, negative, or zero number: "))
+
+# checking if number > 0 than print positive
+if number>0:
+    print("Given number is positive")
+# checking if number == 0, then print zero
+elif number == 0:
+    print("Given number is zero")
+# checking if number < 0 than print negative
+elif number <0:
+    print("Given number is negative")
